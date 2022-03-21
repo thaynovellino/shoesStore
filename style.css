@@ -1,0 +1,68 @@
+
+main {
+    background-color: white;
+    font-family: 'Open Sans';
+    width: vw;
+    height: vh;
+    margin: 10px;
+}
+
+/* cabeçalho: menu */
+
+header {
+    width: 1280px;
+    height: 122px;
+    border: solid 1px wheat;
+}
+
+.section01 {
+    display: flex;
+    justify-content: center;
+    align-content:space-around
+}
+
+#logo01 {
+    width: 209px;
+    height: 104px;
+    position: absolute;
+    width: 209px;
+    height: 104px;
+    left: 19px;
+    top: 18px;
+}
+
+h3 {
+    Width: 269px;
+    Height: 34px;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 33px;
+    color: #777777;
+}
+
+.alinhamento-menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#opção01 {
+    position: relative;
+    top: 30%;
+    left: 170%;
+}
+
+#opção02 {
+    position: relative;
+    top: 30%;
+    left: 180%;
+}
+
+#opção03 {
+    position: relative;
+    top: 30%;
+    left: 140%;
+}
