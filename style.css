@@ -12,7 +12,6 @@ main {
 header {
     width: 1280px;
     height: 122px;
-    border: solid 1px wheat;
 }
 
 .section01 {
@@ -72,7 +71,6 @@ h3 {
 .banner {
     Width: 1280px;
     Height: 235px;
-    border: solid 1px red;
 }
 
 /* anuncios 01 */
@@ -80,7 +78,6 @@ h3 {
 .box {
     width: 1280px;
     height: 1100px;
-    border: solid 1px green;
 }
 
 h2 {
@@ -120,13 +117,15 @@ h2 {
     background-color: #C2185B;
     Width: 1280px;
     Height: 662px;
-    border: solid 1px yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .posicionamento-carrossel {
     display: flex;
     justify-content: space-evenly;
-    align-self:flex-end;   
+    align-items: center;    
 }
     
 
@@ -142,7 +141,7 @@ h1 {
     width: 188px;
     height: 60px;
     left: 546px;
-    top: 1530px;
+    top: 1505px;
 }
 
 .produto1 {
@@ -151,6 +150,8 @@ h1 {
     background-repeat: no-repeat;
     width: 260px;
     height: 388px;
+    position: relative;
+    right: 5%;
 }
 
 p {
@@ -173,6 +174,8 @@ p {
     background-repeat: no-repeat;
     width: 260px;
     height: 388px;
+    position: relative;
+    right: 1.5%;
 }
 
 #produto2 {
@@ -187,6 +190,8 @@ p {
     background-repeat: no-repeat;
     width: 260px;
     height: 388px;
+    position: relative;
+    left: 1.5%;
 }
 
 #produto3 {
@@ -202,10 +207,166 @@ p {
     background-repeat: no-repeat;
     width: 260px;
     height: 388px;
+    position: relative;
+    left: 5%;
 }
 
 #produto4 {
     position: relative;
     top: 82%;
     left: 5%;
+}
+
+/* Anuncios 02 */
+
+.section03 {
+    width: 1280px;
+    height: 1400px;
+}
+
+h6 {
+    position: absolute;
+    width: 585px;
+    height: 144px;
+    left: 127px;
+    top: 2300px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+
+    color: #000000;
+
+}
+
+.button {
+    position: absolute;
+    width: 403px;
+    height: 99px;
+    left: 127px;
+    top: 2531px;
+    background-color: #C2185B;
+    
+}
+ 
+#button {
+    font-family: "Open Sans";
+    font-size: 39px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+a {
+    color: inherit;
+}
+
+.anuncios02 {
+
+}
+
+#photoshoot3 {
+    position: absolute;
+    width: 513px;
+    height: 663px;
+    left: 127px;
+    top: 2655px;
+}
+
+#photoshoot4 {
+    position: absolute;
+    width: 507px;
+    height: 939px;
+    left: 668px;
+    top: 2379px;
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    width: 1280px;
+    height: 248px;
+    left: 20px;
+    top: 3434px;
+    background-color: #C2185B;
+    
+}
+
+h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content:left; 
+    
+}
+
+#logobranca {
+    width: 233px;
+    height: 123px;
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+}
+
+#paragrafo01 {
+    width: 255px;
+    height: 91px;
+    position: absolute;
+    bottom: 18%;
+    left: 10%;    
+}
+
+#categoria01 {
+    position: absolute;
+    top:10%;
+}
+
+#categoria02{
+    position: absolute;
+    top: 10%;
+
+}
+
+/* config cliques categorias */
+
+h5:hover {
+    color: #000000;
+}
+
+h5:visited {
+    color:#777777;
+}
+
+h5:active {
+    color: lightpink;
 }
