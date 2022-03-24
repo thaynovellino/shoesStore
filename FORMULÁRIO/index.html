@@ -24,9 +24,40 @@
         <section class="section02">
             <div>
                 <spain id="titulo01"><h1>Faça parte do nosso time</h1></spain>
-                <div class="formulario"><form action="#"></form></div>
-                <div class="texto"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3></div>
+                <div class="formulario">
+                    <form action="/contato" method="POST">
+                        <label for="nome">Nome</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email"><br><br>
+                        <label for="telefone">Telefone</label><br>
+                        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone"><br><br>
+                        <label>Departamentos</label><br>
+                        <select name="departamentos" id="departamentos">
+                            <option value="selecione" selected disabled>Selecione</option>
+                            <option value="rh">Recursos Humanos</option>
+                            <option value="carreiras">Carreiras</option>
+                            <option value="administrativo">Administrativo</option>
+                            <option value="financeiro">Financeiro</option>
+                            <option value="educacional">Educacional</option>
+                        </select><br><br>
+                        <label for="disponibilidade">Disponibilidade</label><br>
+                        <input type="checkbox" id="disponibilidade" name="integral"><label>Integral(8h)</label>
+                        <input type="checkbox" id="disponibilidade" name="meioperiodo"><label>Meio Período(4h)</label>
+                        <input type="checkbox" id="disponibilidade" name="freelancer"><label>Freelancer</label><br><br>
+                        <label for="contato">Qual a melhor forma para entrarmos em contato com você?</label><br>
+                        <input type="radio" name="contato" id="contato"><label>Email</label>
+                        <input type="radio" name="contato" id="contato"><label>Ligação</label>
+                        <input type="radio" name="contato" id="contato"><label>WhatsApp</label><br><br>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br><br>
+                        <label for="curriculo">Currículo  </label><input type="file" name="arquivo" id="arquivo"><br><br>
+                        <button type="submit">Enviar</button>
+
+
+                    </form>
+                </div>
+                <div class="texto"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3></div>
             </div>
         </section>
 
