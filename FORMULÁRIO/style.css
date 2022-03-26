@@ -4,7 +4,7 @@ main {
     font-family: 'Open Sans';
     width: 100vw;
     height: 100vh;
-    margin: 10px;
+    margin: 0px;
 }
 
 /* menu */
@@ -17,7 +17,8 @@ header {
 .section01 {
     display: flex;
     justify-content: center;
-    align-content:space-around
+    align-content:space-around;
+    
 }
 
 #logomarca01 {
@@ -64,6 +65,27 @@ h3 {
     position: relative;
     top: 30%;
     left: 140%;
+}
+
+/* promoção */
+
+h6 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.promoção {
+    background-color: #C2185B;
+    display: block;
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    z-index: 2;
+
 }
 
 /* forms */
@@ -115,6 +137,8 @@ h2 {
     top: 120px;
     right: 50px;
 }
+
+
 
 /* configs caixinhas e todos os itens do formulario propriamente dito */
 
@@ -201,14 +225,15 @@ button[type="submit"] {
     border: solid 1px #9B9B9B;
     color: #FFFFFF;
 }
+
 /* footer */
 
 footer {
     position: absolute;
-    width: 100vw;
+    width: 1280px;
     height: 248px;
     left: 20px;
-    top: 1234px;
+    top: 3434px;
     background-color: #C2185B;
     
 }
@@ -274,15 +299,14 @@ h5 {
 
 /* config cliques categorias */
 
-a {
-    color: white
+h5:hover {
+    color: #000000;
 }
 
-a:visited {
-    color: white;
+h5:visited {
+    color:#777777;
 }
 
-a:hover {
-    color: pink;
+h5:active {
+    color: lightpink;
 }
-

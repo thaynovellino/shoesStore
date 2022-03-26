@@ -1,0 +1,212 @@
+main {
+    background-color: white;
+    font-family: "Open Sans";
+    width: 100vw;
+    height: 100vw;
+    display: block;
+}
+
+/* menu */
+
+header {
+    width: 1280px;
+    height: 122px;
+}
+
+.section01 {
+    display: flex;
+    justify-content: center;
+    align-content:space-around;
+    
+}
+
+#logomarca01 {
+    width: 209px;
+    height: 104px;
+    position: absolute;
+    width: 209px;
+    height: 104px;
+    left: 19px;
+    top: 18px;
+}
+
+h3 {
+    Width: 269px;
+    Height: 34px;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 33px;
+    color: #777777;
+}
+
+.alinhamento-menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#opção01 {
+    position: relative;
+    top: 30%;
+    left: 170%;
+}
+
+#opção02 {
+    position: relative;
+    top: 30%;
+    left: 180%;
+}
+
+#opção03 {
+    position: relative;
+    top: 30%;
+    left: 140%;
+}
+
+
+
+
+
+/* mensagem */
+h1 {
+    font-family: "Open Sans";
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+}
+
+h2 {
+    font-family: "Open Sans";
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.obrigado {
+    background-color: #C2185B;
+    display: block;
+    width: 1280px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.shoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#shoes01 {
+
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 20px;
+    opacity: 80%;
+
+}
+
+#shoes02 {
+
+    width: 500px;
+    height: auto;
+    position: relative;
+    right: 20px;
+    opacity: 80%;
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    width: 1280px;
+    height: 248px;
+    left: 20px;
+    top: 1234px;
+    background-color: #C2185B;
+    
+}
+
+h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content:left; 
+    
+}
+
+#logobranca {
+    width: 233px;
+    height: 123px;
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+}
+
+#paragrafo01 {
+    width: 255px;
+    height: 91px;
+    position: absolute;
+    bottom: 18%;
+    left: 10%;    
+}
+
+#categoria01 {
+    position: absolute;
+    top:10%;
+}
+
+#categoria02{
+    position: absolute;
+    top: 10%;
+
+}
+
+/* config cliques categorias */
+
+h5:hover {
+    color: #000000;
+}
+
+h5:visited {
+    color:#777777;
+}
+
+h5:active {
+    color: lightpink;
+}
+
+a {
+    color: inherit;
+}
