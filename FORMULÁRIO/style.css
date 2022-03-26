@@ -1,0 +1,288 @@
+
+main {
+    background-color: white;
+    font-family: 'Open Sans';
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+/* menu */
+
+header {
+    width: 1280px;
+    height: 122px;
+}
+
+.section01 {
+    display: flex;
+    justify-content: center;
+    align-content:space-around
+}
+
+#logomarca01 {
+    width: 209px;
+    height: 104px;
+    position: absolute;
+    width: 209px;
+    height: 104px;
+    left: 19px;
+    top: 18px;
+}
+
+h3 {
+    Width: 269px;
+    Height: 34px;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 33px;
+    color: #777777;
+}
+
+.alinhamento-menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#opção01 {
+    position: relative;
+    top: 30%;
+    left: 170%;
+}
+
+#opção02 {
+    position: relative;
+    top: 30%;
+    left: 180%;
+}
+
+#opção03 {
+    position: relative;
+    top: 30%;
+    left: 140%;
+}
+
+/* forms */
+
+.section02 {
+    position: absolute;
+}
+
+#titulo01 {
+    position: relative;
+    left: 16px;
+    
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    color: #575757;
+}
+
+h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #575757;
+}
+
+.posicionamento-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario {
+    width: 50%;
+    height: 800px;   
+
+}
+
+.texto {
+    width: 40%;
+    height: 800px;
+    position: relative;
+    top: 120px;
+    right: 50px;
+}
+
+/* configs caixinhas e todos os itens do formulario propriamente dito */
+
+fieldset {
+
+    width: 100%;
+    border: none;
+    
+
+}
+
+fieldset input[type='text'], input[type="email"], input[type="tel"], option, select {
+    
+    width: 538px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+fieldset label {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+
+#check {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+}
+
+fieldset input[type='checkbox'], input[type='radio'] {
+    width: 10px;
+    height: 10px;
+    background-color: #C4C4C4;
+}
+
+textarea {
+    width: 536.64px;
+    height: 78px;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+legend {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+
+#upload {
+    position: relative;
+    left: 100px;
+    bottom: 23px;
+    padding: 2px 2px;
+    width: 200px;
+    background-color: #C4C4C4;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 537px;
+    height: 33px;
+    background: #C2185B;
+    left: 70%;
+    border: solid 1px #9B9B9B;
+    color: #FFFFFF;
+}
+/* footer */
+
+footer {
+    position: absolute;
+    width: 100vw;
+    height: 248px;
+    left: 20px;
+    top: 1234px;
+    background-color: #C2185B;
+    
+}
+
+h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content:left; 
+    
+}
+
+#logobranca {
+    width: 233px;
+    height: 123px;
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+}
+
+#paragrafo01 {
+    width: 255px;
+    height: 91px;
+    position: absolute;
+    bottom: 18%;
+    left: 10%;    
+}
+
+#categoria01 {
+    position: absolute;
+    top:10%;
+}
+
+#categoria02{
+    position: absolute;
+    top: 10%;
+
+}
+
+/* config cliques categorias */
+
+a {
+    color: white
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: pink;
+}
+
