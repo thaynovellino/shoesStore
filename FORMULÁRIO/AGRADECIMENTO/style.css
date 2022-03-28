@@ -122,13 +122,14 @@ h2 {
     opacity: 80%;
 }
 
-/* footer */
+.fantasma {
+    animation: fantasma 3s infinite;
+}
 
 footer {
     position: absolute;
-    width: 1280px;
+    width: 100vw;
     height: 248px;
-    left: 20px;
     top: 1234px;
     background-color: #C2185B;
     

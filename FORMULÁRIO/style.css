@@ -216,15 +216,23 @@ legend {
     cursor: pointer;
 }
 
-button[type="submit"] {
+button {
     display: block;
     width: 537px;
     height: 33px;
-    background: #C2185B;
+    background-color: #C2185B;
     left: 70%;
     border: solid 1px #9B9B9B;
     color: #FFFFFF;
+    transition: background-color 0.5s, 
+    color 0.5s;
 }
+
+button:hover {
+    background-color: white;
+    color:#C2185B;
+}
+
 
 /* footer */
 
@@ -233,7 +241,7 @@ footer {
     width: 1280px;
     height: 248px;
     left: 20px;
-    top: 3434px;
+    top: 1034px;
     background-color: #C2185B;
     
 }
